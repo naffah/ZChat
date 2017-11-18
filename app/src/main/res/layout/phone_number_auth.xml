@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:background="@drawable/goku_nimbus"
+                tools:context=".PhoneAuth.PhoneAuthActivity">
+
+    <TextView
+        android:id="@+id/textViewOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="20px"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_centerHorizontal="true"
+        android:text="@string/put_phone_number_prompt"
+        android:textColor="@color/dark_grey"/>
+
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewOne"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:hint="Enter Phone Number"
+        android:textColorHint="@color/veryLightRed"/>
+
+    <Button
+        android:id="@+id/sendCodeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNumberEditText"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="Send Code"
+        android:background="@color/darkRed"
+        android:textColor="@color/white"
+        android:layout_alignLeft="@+id/phoneNumberEditText"
+        android:layout_alignStart="@+id/phoneNumberEditText"
+        android:layout_alignRight="@+id/phoneNumberEditText"
+        android:layout_alignEnd="@+id/phoneNumberEditText" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="14sp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:text="@string/send_code_string"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:textColor="@color/dark_grey"/>
+
+        <EditText
+            android:id="@+id/enterCodeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSecond"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:ems="10"
+            android:padding="10dp"
+            android:inputType="phone"
+            android:visibility="gone"
+            android:textColorHint="@color/veryLightRed"
+            android:hint="Enter Code Here"/>
+
+        <Button
+            android:id="@+id/codeVerifyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enterCodeEditText"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:text="Verify Code"
+            android:background="@color/darkRed"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:layout_alignLeft="@+id/enterCodeEditText"
+            android:layout_alignStart="@+id/enterCodeEditText"
+            android:layout_alignRight="@+id/enterCodeEditText"
+            android:layout_alignEnd="@+id/enterCodeEditText" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

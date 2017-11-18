@@ -8,4 +8,6 @@
     <color name="veryLightRed">#ef9b86</color>
     <color name="brightYellow">#faff00</color>
     <color name="orange">#ff8c00</color>
+    <color name="black">#000000</color>
+    <color name="dark_grey">#4f575e</color>
 </resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "314954959901",
+    "firebase_url": "https://zchat-9000.firebaseio.com",
+    "project_id": "zchat-9000",
+    "storage_bucket": "zchat-9000.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314954959901:android:7ef6c0333ec82ac4",
+        "android_client_info": {
+          "package_name": "app.naffah.zchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314954959901-8eh3ngcgksn41n1cron2e7l2iggl1h5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.naffah.zchat",
+            "certificate_hash": "f545d320823d9546499164a6c00a26a056b64f51"
+          }
+        },
+        {
+          "client_id": "314954959901-7p48b2ska5fprifrsn34venkqoc5vge3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3nke_ixTjP_1aAhRbRst8XzfoG6q6qjE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314954959901-7p48b2ska5fprifrsn34venkqoc5vge3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
