@@ -144,4 +144,6 @@ public class ContactsFragment extends Fragment implements LoaderManager.LoaderCa
     public void onLoaderReset(Loader<Cursor> loader) {
         mContactAdapter.swapCursor(null);
     }
+
+
 }

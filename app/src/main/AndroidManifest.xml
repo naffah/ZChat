@@ -29,6 +29,8 @@
         </activity>
         <activity android:name=".PhoneAuth.PhoneAuthToTabView">
         </activity>
+        <activity android:name=".Activities.ContactDetails">
+        </activity>
     </application>
 
 </manifest>
