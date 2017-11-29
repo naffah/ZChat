@@ -5,4 +5,5 @@
     <string name="put_phone_number_prompt">ZChat will send an SMS to verify your phone number.
             Enter your country code and phone number. Example: 9200012345678</string>
     <string name="send_code_string">Waiting to automatically detect an sms code.</string>
+    <string name="type_here">Type here</string>
 </resources>

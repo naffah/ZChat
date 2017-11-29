@@ -10,4 +10,6 @@
     <color name="orange">#ff8c00</color>
     <color name="black">#000000</color>
     <color name="dark_grey">#4f575e</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="scrollbar">#546E7A</color>
 </resources>

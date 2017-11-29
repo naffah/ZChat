@@ -1,4 +1,4 @@
-package app.naffah.zchat;
+package app.naffah.zchat.Adapters;
 
 import android.support.v4.app.*;
 

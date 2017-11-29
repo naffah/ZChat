@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import app.naffah.zchat.R;
-import app.naffah.zchat.TabView;
+import app.naffah.zchat.Activities.TabView;
 
 public class PhoneAuthToTabView extends AppCompatActivity {
 
