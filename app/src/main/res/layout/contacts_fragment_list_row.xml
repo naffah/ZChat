@@ -19,17 +19,11 @@
             android:layout_height="56dp"
             android:src="@drawable/dummy_avatar"/>
 
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="16dp"
-            android:layout_weight="1"
-            android:gravity="center_vertical"
-            android:orientation="vertical">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="16dp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -42,20 +36,7 @@
                     android:textColor="@android:color/black"
                     android:textStyle="bold"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="mobile"
-                    android:textAllCaps="true"
-                    android:textSize="12sp"/>
             </LinearLayout>
-
-            <TextView
-                android:maxLines="1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Status"/>
-        </LinearLayout>
 
     </LinearLayout>
 

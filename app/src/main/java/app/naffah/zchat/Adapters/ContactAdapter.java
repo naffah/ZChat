@@ -1,5 +1,6 @@
 package app.naffah.zchat.Adapters;
 
+import android.content.ContentResolver;
 import android.content.ContentUris;
 import android.content.Context;
 import android.content.Intent;
@@ -47,6 +48,7 @@ public class ContactAdapter extends CursorRecyclerViewAdapter<ContactAdapter.Con
 
         viewHolder.setContactUsername(username);
         long contactId = getItemId(cursor.getPosition());
+
         long photoId = cursor.getLong(cursor.getColumnIndex(
                 ContactsContract.Data.PHOTO_ID
         ));
@@ -63,6 +65,7 @@ public class ContactAdapter extends CursorRecyclerViewAdapter<ContactAdapter.Con
 
     public static class ContactsViewHolder extends RecyclerView.ViewHolder {
         TextView textViewContactUsername;
+        TextView textViewContactPhoneNumber;
         ImageView imageViewContactDisplay;
 
         public ContactsViewHolder(final View itemView) {
@@ -92,5 +95,6 @@ public class ContactAdapter extends CursorRecyclerViewAdapter<ContactAdapter.Con
         public void setContactUsername(String username) {
             textViewContactUsername.setText(username);
         }
+
     }
 }
